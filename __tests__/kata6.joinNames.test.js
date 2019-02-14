@@ -1,0 +1,9 @@
+const { joinNames } = require('../src');
+
+describe('joinNames', () => {
+  it('returns string of names, seperated by commas and an ampersand', () => {
+    expect(joinNames([{name: 'Bart'}, {name: 'Lisa'}, {name: 'Maggie'}])).toEqual('Bart, Lisa & Maggie');
+    expect(joinNames([{name: 'Homer'}, {name: 'Marge'}, {name: 'Bart'}, {name: 'Lisa'}, {name: 'Maggie'}])). toEqual('Homer, Marge, Bart, Lisa & Maggie');
+    expect(joinNames([{name: 'Richard'}, {name: 'Sophie'}])).toEqual('Richard & Sophie');
+  });
+});
