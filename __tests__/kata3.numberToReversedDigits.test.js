@@ -1,3 +1,4 @@
+//Consistent testing, looks good.
 const { numberToReversedDigits } = require('../src');
 
 describe('numberToReversedDigits', () => {
