@@ -1,3 +1,4 @@
+//Clear thourough testing, well done.
 const { joinNames } = require('../src');
 
 describe('joinNames', () => {
