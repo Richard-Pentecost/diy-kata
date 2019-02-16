@@ -1,3 +1,4 @@
+//Good code. Clear and concise, makes sense.
 const joinNames = (namesObj) => {
     let count = 0;
     return namesObj.reduce((acc, next) => {
