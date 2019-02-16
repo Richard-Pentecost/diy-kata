@@ -1,5 +1,6 @@
 const { fizzBuzz } = require('../src');
 
+//Looks good, could have done mulitple tests for each to be more thourough but these are fine.
 describe('fizzBuzz', () => {
   it('returns Fizz when passed a multiple of 3', () => {
     expect(fizzBuzz(3)).toBe('Fizz');
