@@ -1,3 +1,4 @@
+//Well done, this works fine and is easy to understand
 const fizzBuzz = (number) => {
     if (number % 3 === 0 && number % 5 === 0) {
         return 'FizzBuzz';
